@@ -1,0 +1,16 @@
+//     font-family: 'Playfair Display', serif;
+
+// font-family: 'Source Sans Pro', sans-serif;
+
+@use'./variables' as *;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: $brown;
+}
