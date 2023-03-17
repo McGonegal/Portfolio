@@ -21,18 +21,43 @@ body {
     line-height: 1.4rem;
 }
 
+a {
+    transition: color 250ms ease-in-out;
+}
+
 a:hover, a:focus {
     color: $green;
 }
 
 .wrapper {
-    width: calc(100% - 2rem);
+    width: 100%;
     max-width: 1110px;
-    margin-inline: auto;
+    margin: 0 auto;
 }
 
-@media (min-width: 600px){
-    .wrapper {
-        width: calc(100% - 3.75rem);
+// @media (max-width: 600px){
+//     .socialLink {
+//         padding-right: 25px;
+//     }
+// }
+
+@media (max-width: 380px) {
+    .navFlex{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 20px 25px;
+    }
+
+    .socialLink {
+        padding: 0;
+    }
+
+    .homeLink {
+        flex: 1 0 100%;
+    }
+
+    .header {
+        padding-top: 25px;
     }
 }
