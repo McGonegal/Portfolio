@@ -5,6 +5,26 @@
   list-style: none;
 }
 
+html {
+  font-size: 125%;
+}
+
 body {
-  background-color: #EEAF98;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #151515;
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+
+.wrapper {
+  width: calc(100% - 2rem);
+  max-width: 1110px;
+  margin-inline: auto;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    width: calc(100% - 3.75rem);
+  }
 }/*# sourceMappingURL=style.css.map */

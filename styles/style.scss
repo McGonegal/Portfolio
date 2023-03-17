@@ -1,6 +1,3 @@
-//     font-family: 'Playfair Display', serif;
-
-// font-family: 'Source Sans Pro', sans-serif;
 
 @use'./variables' as *;
 
@@ -11,6 +8,26 @@
     list-style: none;
 }
 
+html {
+    font-size: 125%;
+}
+
 body {
-    background-color: $brown;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: $black;
+    color: $white;
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+
+.wrapper {
+    width: calc(100% - 2rem);
+    max-width: 1110px;
+    margin-inline: auto;
+}
+
+@media (min-width: 600px){
+    .wrapper {
+        width: calc(100% - 3.75rem);
+    }
 }
