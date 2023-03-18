@@ -10,7 +10,6 @@
     padding-left: 25px;
 }
 
-
 .navFlex {
     display:flex;
     justify-content: flex-start;
@@ -23,5 +22,34 @@
     text-decoration: none;
     flex: 1;
     margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.headerP {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: $offWhite
+}
+
+.headerImage{
+    width: 60%;
+    height: 70%;
+    float: right;
+}
+
+.headerWrapper {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+    border-bottom: 2px solid $offWhite;
+}
+
+.headerText {
+    text-align: center;
 }
 
