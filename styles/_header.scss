@@ -1,2 +1,10 @@
 @use './variables' as *;
 
+//font-family: 'Playfair Display', serif;
+
+header{
+    height: 100vh;
+    background-color: $darkBlue;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}

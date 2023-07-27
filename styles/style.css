@@ -1,1 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+header {
+  height: 100vh;
+  background-color: #424b6d;
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */
