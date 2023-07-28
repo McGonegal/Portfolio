@@ -43,6 +43,34 @@ h1 {
   margin-top: 1rem;
 }
 
+@media (max-width: 890px) {
+  h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 610px) {
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 485px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 448px) {
+  .titleFlex h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 385px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .titleFlex h2 {
+    font-size: 0.9rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
