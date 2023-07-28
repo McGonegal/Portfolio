@@ -22,3 +22,34 @@ header{
 }
 
 //Make nav bar hamburger menu, add animation to links, and hover/visited styling
+
+h1 {
+    color: $grey;
+    font-size: 6rem;
+    font-style: italic;
+}
+
+.titleFlex {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleFlex h2 {
+    color: $grey;
+}
+
+.getInTouch {
+    height: 2.5rem;
+    width: 10rem;
+    background-color: $beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+//Add js to getInTouch link
+
