@@ -261,7 +261,7 @@ img {
   border-bottom: 3px solid #DFE0FC;
 }
 
-.project1Image {
+.projectImage {
   width: 50%;
   box-shadow: -10px -5px 25px #14070E;
   margin-bottom: 1rem;
@@ -318,4 +318,71 @@ img {
   padding-top: 3rem;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1250px) {
+  .projectLinks {
+    width: 60%;
+  }
+}
+@media (max-width: 1060px) {
+  .projectLinks {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 880px) {
+  .project1, .project2, .project3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project2 .projectImage {
+    order: 1;
+  }
+  .project2 .projectText {
+    order: 2;
+  }
+  .projectText {
+    text-align: center;
+  }
+  .projectLinks {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .projectImage {
+    width: 60%;
+  }
+}
+@media (max-width: 650px) {
+  .projectImage {
+    width: 70%;
+  }
+}
+@media (max-width: 610px) {
+  .projectLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectLinks a {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .projectImage {
+    width: 80%;
+  }
+}
+@media (max-width: 470px) {
+  .projectImage {
+    width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .projectImage {
+    width: 100%;
+  }
+  .projects h2 {
+    font-size: 4rem;
+  }
 }/*# sourceMappingURL=style.css.map */
