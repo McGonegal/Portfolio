@@ -10,7 +10,7 @@
     font-size: 5rem;
     font-style: italic;
     padding-top:2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .projectsFlex {
@@ -23,11 +23,30 @@
 
 .project1 {
     height: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .project1Image {
     height: 45%;
-    width: 65%;
+    width: 50%;
     border: solid 1px $black;
     box-shadow: -10px -5px 25px $black;
+}
+
+.project1Text {
+    display: flex;
+    flex-direction: column;
+}
+
+.project1Text h4{
+    font-size: .9rem;
+    color: $darkBlue;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.project1Text p {
+    max-width: 30ch;
+    line-height: 1.5rem;
 }
