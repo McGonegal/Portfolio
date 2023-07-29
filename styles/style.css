@@ -241,7 +241,7 @@ img {
   }
 }
 .projects {
-  height: 100vh;
+  height: 150vh;
   background-color: #F2F4F5;
 }
 
@@ -251,63 +251,14 @@ img {
   font-style: italic;
   padding-top: 2rem;
   padding-bottom: 3rem;
-}
-
-.projectsFlex {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .project1 {
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  border-bottom: 3px solid white;
+  height: 33%;
 }
 
 .project1Image {
-  height: 45%;
   width: 50%;
-  border: solid 1px #14070E;
   box-shadow: -10px -5px 25px #14070E;
-}
-
-.project1Text {
-  display: flex;
-  flex-direction: column;
-}
-
-.project1Text h4 {
-  font-size: 0.9rem;
-  color: #424b6d;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.project1Text p {
-  max-width: 30ch;
-  line-height: 1.5rem;
-}
-
-.project1Links {
-  padding-top: 2rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.project1Links a {
-  width: 8rem;
-  height: 2rem;
-  background-color: #EEAF98;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 300;
-}
-
-.projectBorder {
-  border-bottom: 3px solid white;
 }/*# sourceMappingURL=style.css.map */
