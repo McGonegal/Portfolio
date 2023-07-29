@@ -170,4 +170,34 @@ li {
   .about {
     height: 110vh;
   }
+}
+.skills {
+  height: 50vh;
+  background-color: #DFE0FC;
+}
+
+.skillsFlex {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills h2 {
+  color: #14070E;
+  font-style: italic;
+  font-size: 5rem;
+}
+
+.skills ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconsFlex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
