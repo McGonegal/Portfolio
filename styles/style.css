@@ -265,6 +265,7 @@ img {
   height: 100%;
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 3px solid white;
 }
 
 .project1Image {
@@ -289,4 +290,24 @@ img {
 .project1Text p {
   max-width: 30ch;
   line-height: 1.5rem;
+}
+
+.project1Links {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project1Links a {
+  width: 8rem;
+  height: 2rem;
+  background-color: #EEAF98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.projectBorder {
+  border-bottom: 3px solid white;
 }/*# sourceMappingURL=style.css.map */
