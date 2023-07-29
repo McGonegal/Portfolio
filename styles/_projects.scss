@@ -1,0 +1,33 @@
+@use './variables' as *;
+
+.projects {
+    height: 100vh;
+    background-color: $grey;
+}
+
+.projects h2 {
+    color: $darkBlue;
+    font-size: 5rem;
+    font-style: italic;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
+.projectsFlex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project1 {
+    height: 100%;
+}
+
+.project1Image {
+    height: 45%;
+    width: 65%;
+    border: solid 1px $black;
+    box-shadow: -10px -5px 25px $black;
+}

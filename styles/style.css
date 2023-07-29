@@ -97,6 +97,11 @@ li {
   height: 100%;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+}
+
 .about {
   height: 50vh;
   background-color: #F2F4F5;
@@ -234,4 +239,35 @@ li {
   .skills {
     height: 100vh;
   }
+}
+.projects {
+  height: 100vh;
+  background-color: #F2F4F5;
+}
+
+.projects h2 {
+  color: #424b6d;
+  font-size: 5rem;
+  font-style: italic;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.projectsFlex {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project1 {
+  height: 100%;
+}
+
+.project1Image {
+  height: 45%;
+  width: 65%;
+  border: solid 1px #14070E;
+  box-shadow: -10px -5px 25px #14070E;
 }/*# sourceMappingURL=style.css.map */
