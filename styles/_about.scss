@@ -1,0 +1,26 @@
+@use './variables' as *;
+
+.about {
+    height: 50vh;
+    background-color: $grey;
+}
+
+.about h2 {
+    color: $blue;
+    font-style: italic;
+    font-size: 5rem;
+}
+
+.about p {
+    text-align: center;
+    width: 80%;
+    line-height: 2rem;
+}
+
+.aboutFlex {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
