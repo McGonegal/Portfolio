@@ -385,4 +385,30 @@ img {
   .projects h2 {
     font-size: 4rem;
   }
+}
+.contact {
+  min-height: 100vh;
+  background-color: #5169bd;
+}
+
+.contact h2 {
+  color: #F2F4F5;
+  font-size: 5rem;
+  font-style: italic;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.contactTextFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p {
+  color: #F2F4F5;
+  font-size: 1.2rem;
+  max-width: 50ch;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
