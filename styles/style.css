@@ -241,7 +241,7 @@ img {
   }
 }
 .projects {
-  height: 150vh;
+  min-height: 150vh;
   background-color: #F2F4F5;
 }
 
@@ -256,9 +256,51 @@ img {
 
 .project1 {
   height: 33%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #DFE0FC;
 }
 
 .project1Image {
   width: 50%;
   box-shadow: -10px -5px 25px #14070E;
+  margin-bottom: 1rem;
+}
+
+.project1Text {
+  width: 45%;
+}
+
+.project1Text h3 {
+  font-size: 1.3rem;
+}
+
+.project1Text h4 {
+  font-size: 0.9rem;
+  color: #424b6d;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.project1Text p {
+  font-weight: 400;
+  max-width: 30ch;
+  line-height: 1.5rem;
+}
+
+.project1Links {
+  width: 50%;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project1Links a {
+  width: 6rem;
+  height: 2rem;
+  background-color: #EEAF98;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */
