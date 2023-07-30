@@ -35,7 +35,27 @@
     align-items: center;
 }
 
-.message {
+.individualFormFlex {
     display: flex;
     flex-direction: column;
+    align-items: left;
 }
+
+form {
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+label {
+    color: $grey;
+    padding-bottom: .5rem;
+}
+
+.submitButton {
+    background-color: $beige;
+    width: 10rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+// prevent default behaviour on button
