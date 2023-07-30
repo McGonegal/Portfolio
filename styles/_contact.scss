@@ -5,6 +5,10 @@
     background-color:$blue ;
 }
 
+.contactForm2 {
+    display: none;
+}
+
 .contact h2 {
     color: $grey;
     font-size: 5rem;
@@ -51,6 +55,10 @@ label {
     padding-bottom: .5rem;
 }
 
+textarea {
+    font-size: .8rem;
+}
+
 .submitButton {
     background-color: $beige;
     width: 10rem;
@@ -59,3 +67,33 @@ label {
 }
 
 // prevent default behaviour on button
+
+@media (max-width: 870px) {
+    .contactForm1 {
+        display: none;
+    }
+    .contactForm2 {
+        display: inline-block;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 520px){
+    textarea {
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 480px){
+    textarea {
+        font-size: .5rem;
+    }
+    .nameText {
+        font-size: .7rem;
+    }
+
+    .emailText {
+        font-size: .7rem;
+    }
+}

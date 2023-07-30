@@ -402,6 +402,10 @@ button {
   background-color: #5169bd;
 }
 
+.contactForm2 {
+  display: none;
+}
+
 .contact h2 {
   color: #F2F4F5;
   font-size: 5rem;
@@ -448,9 +452,39 @@ label {
   padding-bottom: 0.5rem;
 }
 
+textarea {
+  font-size: 0.8rem;
+}
+
 .submitButton {
   background-color: #EEAF98;
   width: 10rem;
   height: 3rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 870px) {
+  .contactForm1 {
+    display: none;
+  }
+  .contactForm2 {
+    display: inline-block;
+    width: 100%;
+  }
+}
+@media (max-width: 520px) {
+  textarea {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 480px) {
+  textarea {
+    font-size: 0.5rem;
+  }
+  .nameText {
+    font-size: 0.7rem;
+  }
+  .emailText {
+    font-size: 0.7rem;
+  }
 }/*# sourceMappingURL=style.css.map */
