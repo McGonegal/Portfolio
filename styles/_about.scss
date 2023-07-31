@@ -9,12 +9,14 @@
     color: $blue;
     font-style: italic;
     font-size: 5rem;
+    padding-top: 5rem;
 }
 
 .about p {
     text-align: center;
     width: 80%;
     line-height: 2rem;
+    padding-bottom: 2rem;
 }
 
 .aboutFlex {
@@ -33,7 +35,7 @@
 
 @media (max-width: 750px){
     .about {
-        height: 60vh;
+        height: 70vh;
     }
 }
 
@@ -48,7 +50,7 @@
         font-size: 4.5rem;
     }
     .about {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
@@ -57,7 +59,7 @@
         padding-top: 3rem;
     }
     .about {
-        height: 80vh;
+        height: 90vh;
     }
 }
 

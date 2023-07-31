@@ -6,6 +6,7 @@ header {
 
 .navFlex {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -51,6 +52,18 @@ h1 {
   margin-top: 1rem;
 }
 
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #14070E;
+}
+
 @media (max-width: 890px) {
   h1 {
     text-align: center;
@@ -64,6 +77,45 @@ h1 {
 @media (max-width: 610px) {
   h1 {
     font-size: 5rem;
+  }
+}
+@media (max-width: 550px) {
+  .hamburger {
+    display: block;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .navFlex {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    background-color: #F2F4F5;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .navItems {
+    margin: 1rem 0;
+  }
+  .navFlex.active {
+    left: 0;
+  }
+  nav {
+    height: 8vh;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 }
 @media (max-width: 485px) {
@@ -135,6 +187,7 @@ button {
 a:hover {
   font-size: 1.2rem;
   font-weight: bold;
+  transition: 0.5s ease;
 }
 
 .about {
@@ -146,12 +199,14 @@ a:hover {
   color: #5169bd;
   font-style: italic;
   font-size: 5rem;
+  padding-top: 5rem;
 }
 
 .about p {
   text-align: center;
   width: 80%;
   line-height: 2rem;
+  padding-bottom: 2rem;
 }
 
 .aboutFlex {
@@ -169,7 +224,7 @@ a:hover {
 }
 @media (max-width: 750px) {
   .about {
-    height: 60vh;
+    height: 70vh;
   }
 }
 @media (max-width: 620px) {
@@ -182,7 +237,7 @@ a:hover {
     font-size: 4.5rem;
   }
   .about {
-    height: 70vh;
+    height: 80vh;
   }
 }
 @media (max-width: 470px) {
@@ -190,7 +245,7 @@ a:hover {
     padding-top: 3rem;
   }
   .about {
-    height: 80vh;
+    height: 90vh;
   }
 }
 @media (max-width: 425px) {
@@ -229,7 +284,7 @@ a:hover {
   font-style: italic;
   font-size: 5rem;
   margin-bottom: 1rem;
-  padding-top: 0.5rem;
+  padding-top: 3rem;
 }
 
 .skills ul li {
@@ -261,7 +316,7 @@ a:hover {
 }
 @media (max-width: 560px) {
   .skills {
-    height: 70vh;
+    height: 80vh;
   }
 }
 @media (max-width: 380px) {
@@ -436,7 +491,7 @@ a:hover {
   color: #F2F4F5;
   font-size: 5rem;
   font-style: italic;
-  padding-top: 2rem;
+  padding-top: 3rem;
   padding-bottom: 2rem;
   text-align: center;
 }
