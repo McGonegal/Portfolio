@@ -12,8 +12,16 @@ header{
 .navFlex {
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center; 
+}
+
+.navigation {
+    background-color: $darkBlue;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 1;
+    box-shadow: 0px 10px 20px $black;
 }
 
 .navFlex li {
@@ -21,7 +29,10 @@ header{
     padding: 1rem;
 }
 
-//Make nav bar hamburger menu, add animation to links, and hover/visited styling
+.navFlex a:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
 
 h1 {
     color: $grey;
