@@ -461,6 +461,7 @@ textarea {
   width: 10rem;
   height: 3rem;
   margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 870px) {
@@ -487,4 +488,15 @@ textarea {
   .emailText {
     font-size: 0.7rem;
   }
+}
+footer {
+  height: 5vh;
+  background-color: #424b6d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #F2F4F5;
 }/*# sourceMappingURL=style.css.map */
