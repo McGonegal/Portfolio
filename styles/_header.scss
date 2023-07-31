@@ -16,23 +16,19 @@ header{
 }
 
 .navigation {
-    background-color: $darkBlue;
+    background-color: $grey;
     width: 100%;
     position: fixed;
     top:0;
     z-index: 1;
-    box-shadow: 0px 10px 20px $black;
 }
 
 .navFlex li {
-    color: $grey;
+    color: $black;
     padding: 1rem;
 }
 
-.navFlex a:hover {
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+
 
 h1 {
     color: $grey;
@@ -53,7 +49,7 @@ h1 {
 }
 
 .getInTouch {
-    height: 2.5rem;
+    height: 7rem;
     width: 10rem;
     background-color: $beige;
     display: flex;
@@ -62,11 +58,18 @@ h1 {
     margin-top: 1rem;
 }
 
+
 //Add js to getInTouch link
 
 @media (max-width:890px){
     h1 {
         text-align: center;
+    }
+}
+
+@media (max-width: 792px){
+    .getInTouch {
+        height: 15rem;
     }
 }
 
@@ -80,7 +83,12 @@ h1 {
     h1 {
         font-size: 4rem;
     }
+
+    .getInTouch {
+        height: 11rem;
+    }
 }
+
 
 @media (max-width: 448px) {
     .titleFlex h2 {
@@ -94,5 +102,9 @@ h1 {
     }
     .titleFlex h2 {
         font-size: .9rem;
+    }
+
+    .getInTouch {
+        height: 5rem;
     }
 }

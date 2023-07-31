@@ -11,22 +11,16 @@ header {
 }
 
 .navigation {
-  background-color: #424b6d;
+  background-color: #F2F4F5;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 1;
-  box-shadow: 0px 10px 20px #14070E;
 }
 
 .navFlex li {
-  color: #F2F4F5;
+  color: #14070E;
   padding: 1rem;
-}
-
-.navFlex a:hover {
-  font-size: 1.2rem;
-  font-weight: bold;
 }
 
 h1 {
@@ -48,7 +42,7 @@ h1 {
 }
 
 .getInTouch {
-  height: 2.5rem;
+  height: 7rem;
   width: 10rem;
   background-color: #EEAF98;
   display: flex;
@@ -62,6 +56,11 @@ h1 {
     text-align: center;
   }
 }
+@media (max-width: 792px) {
+  .getInTouch {
+    height: 15rem;
+  }
+}
 @media (max-width: 610px) {
   h1 {
     font-size: 5rem;
@@ -70,6 +69,9 @@ h1 {
 @media (max-width: 485px) {
   h1 {
     font-size: 4rem;
+  }
+  .getInTouch {
+    height: 11rem;
   }
 }
 @media (max-width: 448px) {
@@ -83,6 +85,9 @@ h1 {
   }
   .titleFlex h2 {
     font-size: 0.9rem;
+  }
+  .getInTouch {
+    height: 5rem;
   }
 }
 * {
@@ -125,6 +130,11 @@ button {
   font-weight: inherit;
   line-height: inherit;
   padding: 0;
+}
+
+a:hover {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .about {
@@ -480,7 +490,7 @@ textarea {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 870px) {
+@media (max-width: 940px) {
   .contactForm1 {
     display: none;
   }
