@@ -48,18 +48,16 @@
 @media (max-width: 550px){
     .about h2 {
         font-size: 4.5rem;
+        padding-top: 6rem;
     }
     .about {
-        height: 90vh;
+        height: 100vh;
     }
 }
 
 @media (max-width: 470px){
     .about h2 {
         padding-top: 3rem;
-    }
-    .about {
-        height: 100vh;
     }
 }
 
