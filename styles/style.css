@@ -1,5 +1,5 @@
 header {
-  height: 100vh;
+  height: 110vh;
   background-color: #424b6d;
   font-family: "Playfair Display", serif;
 }
@@ -87,6 +87,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin-bottom: 0;
   }
   .navFlex {
     position: fixed;
@@ -263,7 +264,7 @@ a:hover {
   color: #5169bd;
   font-style: italic;
   font-size: 5rem;
-  padding-top: 5rem;
+  margin-top: 2rem;
 }
 
 .about p {

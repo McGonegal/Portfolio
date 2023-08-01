@@ -3,7 +3,7 @@
 //font-family: 'Playfair Display', serif;
 
 header{
-    height: 100vh;
+    height: 110vh;
     background-color: $darkBlue;
     font-family: 'Playfair Display', serif;
 }
@@ -100,6 +100,7 @@ h1 {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        margin-bottom: 0;
     }
 
     .navFlex {
