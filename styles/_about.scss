@@ -1,7 +1,7 @@
 @use './variables' as *;
 
 .about {
-    height: 50vh;
+    height: 70vh;
     background-color: $grey;
 }
 
@@ -35,7 +35,7 @@
 
 @media (max-width: 750px){
     .about {
-        height: 70vh;
+        height: 80vh;
     }
 }
 
@@ -50,7 +50,7 @@
         font-size: 4.5rem;
     }
     .about {
-        height: 80vh;
+        height: 90vh;
     }
 }
 
@@ -59,7 +59,7 @@
         padding-top: 3rem;
     }
     .about {
-        height: 90vh;
+        height: 100vh;
     }
 }
 
@@ -70,9 +70,6 @@
         margin-bottom: 1rem;
     }
 
-    .about {
-        height: 90vh;
-    }
 }
 
 @media (max-width: 385px) {
